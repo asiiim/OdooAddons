@@ -14,16 +14,16 @@
     'author': "Aashim Bajracharya",
     'email': "ashimbazracharya@gmail.com",
 
-    'category': 'Inventory',
+    'category': 'Product',
     'version': '12.0.0.0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['product'],
+    'depends': ['stock'],
 
     # always loaded
     'data': [
-        # 'wizards/update_product_price.xml'
+        'views/product_template.xml',
     ],
 
-    'installable': False
+    'installable': True
 }
